@@ -1,0 +1,11 @@
+# 禅道 项目管理系统docker-compose -f docker-compose-old.yml up -d
+version: "3"
+services:
+
+   zentao:
+     image: haha123/zentao
+     volumes:
+       - './data:/opt/zbox/'
+     ports:
+       - "1080:80"
+     restart: unless-stopped

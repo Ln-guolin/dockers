@@ -1,0 +1,16 @@
+# Default credentials are: admin / admin123
+version: '3.1'
+
+services:
+  nexus3:
+    image: sonatype/nexus3:3.22.0
+    restart: unless-stopped
+    container_name: nexus3
+    volumes:
+     - nexus-data:/nexus-data
+    ports:
+     - "8081:8081" # nexus本身的端口
+     - "5000:5000" # 开放给docker仓库使用
+
+volumes:
+  nexus-data:

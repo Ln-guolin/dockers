@@ -1,0 +1,9 @@
+version: "3"
+services:
+  go-webapp01:
+      #image: soilove.cn:5000/go-webapp01:v0.0.1
+      image: go-webapp01:v0.0.1
+      restart: unless-stopped
+      container_name: go-webapp01
+      ports:
+        - '3000:3000'

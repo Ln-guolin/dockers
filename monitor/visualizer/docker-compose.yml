@@ -1,0 +1,15 @@
+#暂时不建议，运行无显示到web
+version: "3"
+
+services:
+  viz:
+    image: dockersamples/visualizer
+    restart: unless-stopped
+    container_name: viz
+    volumes:
+        - "/var/run/docker.sock:/var/run/docker.sock"
+    ports:
+        - "8383:8080"
+    deploy:
+        placement:
+            constraints: [node.role == manager]

@@ -1,0 +1,15 @@
+# nginx 服务器
+version: '3.1'
+
+services:
+  nginx:
+    image: nginx:1.15
+    restart: unless-stopped
+    container_name: some-nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /my/own/nginx/conf.d:/etc/nginx/conf.d
+      - /my/own/nginx/log:/var/log/nginx
+      - /my/own/nginx/www:/var/www

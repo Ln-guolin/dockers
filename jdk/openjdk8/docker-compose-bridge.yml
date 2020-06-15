@@ -1,0 +1,81 @@
+# 使用bridge驱动构建指定网段和ip
+version: "2"
+services:
+  server-001:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-001
+      networks:
+        vpcbr:
+          ipv4_address: 10.1.16.101
+  server-002:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-002
+      networks:
+        vpcbr:
+          ipv4_address: 10.1.16.102
+  server-003:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-003
+      networks:
+        vpcbr:
+          ipv4_address: 10.1.16.103
+  server-004:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-004
+      networks:
+         vpcbr:
+           ipv4_address: 10.1.16.104
+  server-005:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-005
+      networks:
+         vpcbr:
+           ipv4_address: 10.1.16.105
+  server-006:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-006
+      networks:
+         vpcbr:
+           ipv4_address: 10.1.16.106
+  server-007:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-007
+      networks:
+         vpcbr:
+           ipv4_address: 10.1.16.107
+  server-008:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-008
+      networks:
+         vpcbr:
+           ipv4_address: 10.1.16.108
+  server-009:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-009
+      networks:
+         vpcbr:
+           ipv4_address: 10.1.16.109
+  server-010:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: server-010
+      networks:
+        vpcbr:
+          ipv4_address: 10.1.16.110
+
+networks:
+  vpcbr:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.1.16.0/16
+         gateway: 10.1.16.1

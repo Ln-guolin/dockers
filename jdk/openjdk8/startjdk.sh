@@ -1,0 +1,1 @@
+docker run -d -p 22001:22 --name jdk001 guolin123/openjdk:v1.8.0

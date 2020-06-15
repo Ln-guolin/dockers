@@ -1,0 +1,1 @@
+rm -rf apollo-adminservice-1.4.0-github.zip

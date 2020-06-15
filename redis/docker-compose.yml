@@ -1,0 +1,16 @@
+# redis 缓存数据库
+version: "3"
+services:
+ 
+   redis:
+     #image: redis:3.2.9
+     image: redis:5.0.8
+     container_name: some-redis
+     volumes:
+       - data:/my/own/redis/data
+     ports:
+       - "6379:6379"
+     restart: unless-stopped
+     command:  redis-server --appendonly yes --requirepass "password123"
+volumes:
+  data:

@@ -1,0 +1,1 @@
+docker run -d --name kibana2 -p 5601:5601 kibana:6.7.0

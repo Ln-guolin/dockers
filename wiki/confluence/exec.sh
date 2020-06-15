@@ -1,0 +1,1 @@
+docker exec -it confluence-mysql /bin/bash

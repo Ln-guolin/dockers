@@ -1,0 +1,1 @@
+docker build -t apollo-portal:v1.4.0 .

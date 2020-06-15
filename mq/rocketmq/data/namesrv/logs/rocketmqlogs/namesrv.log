@@ -1,0 +1,783 @@
+2020-04-26 18:34:34 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2020-04-26 18:34:34 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2020-04-26 18:34:34 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2020-04-26 18:34:34 INFO main - productEnvName=center
+2020-04-26 18:34:34 INFO main - clusterTest=false
+2020-04-26 18:34:34 INFO main - orderMessageEnable=false
+2020-04-26 18:34:34 INFO main - listenPort=9876
+2020-04-26 18:34:34 INFO main - serverWorkerThreads=8
+2020-04-26 18:34:34 INFO main - serverCallbackExecutorThreads=0
+2020-04-26 18:34:34 INFO main - serverSelectorThreads=3
+2020-04-26 18:34:34 INFO main - serverOnewaySemaphoreValue=256
+2020-04-26 18:34:34 INFO main - serverAsyncSemaphoreValue=64
+2020-04-26 18:34:34 INFO main - serverChannelMaxIdleTimeSeconds=120
+2020-04-26 18:34:34 INFO main - serverSocketSndBufSize=65535
+2020-04-26 18:34:34 INFO main - serverSocketRcvBufSize=65535
+2020-04-26 18:34:34 INFO main - serverPooledByteBufAllocatorEnable=true
+2020-04-26 18:34:34 INFO main - useEpollNativeSelector=false
+2020-04-26 18:34:36 INFO main - Server is running in TLS permissive mode
+2020-04-26 18:34:36 INFO main - Tls config file doesn't exist, skip it
+2020-04-26 18:34:36 INFO main - Log the final used tls related configuration
+2020-04-26 18:34:36 INFO main - tls.test.mode.enable = true
+2020-04-26 18:34:36 INFO main - tls.server.need.client.auth = none
+2020-04-26 18:34:36 INFO main - tls.server.keyPath = null
+2020-04-26 18:34:36 INFO main - tls.server.keyPassword = null
+2020-04-26 18:34:36 INFO main - tls.server.certPath = null
+2020-04-26 18:34:36 INFO main - tls.server.authClient = false
+2020-04-26 18:34:36 INFO main - tls.server.trustCertPath = null
+2020-04-26 18:34:36 INFO main - tls.client.keyPath = null
+2020-04-26 18:34:36 INFO main - tls.client.keyPassword = null
+2020-04-26 18:34:36 INFO main - tls.client.certPath = null
+2020-04-26 18:34:36 INFO main - tls.client.authServer = false
+2020-04-26 18:34:36 INFO main - tls.client.trustCertPath = null
+2020-04-26 18:34:38 INFO main - Using OpenSSL provider
+2020-04-26 18:34:38 INFO main - SSLContext created for server
+2020-04-26 18:34:39 INFO NettyEventExecutor - NettyEventExecutor service started
+2020-04-26 18:34:39 INFO main - The Name Server boot success. serializeType=JSON
+2020-04-26 18:34:39 INFO FileWatchService - FileWatchService service started
+2020-04-26 18:34:48 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.4:35618
+2020-04-26 18:34:48 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.4:35618]
+2020-04-26 18:34:49 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2020-04-26 18:34:49 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2020-04-26 18:34:49 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2020-04-26 18:34:49 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2020-04-26 18:34:49 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2020-04-26 18:34:49 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2020-04-26 18:34:49 INFO RemotingExecutorThread_1 - new broker registered, 172.28.0.4:10911 HAServer: 172.28.0.4:10912
+2020-04-26 18:35:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44664
+2020-04-26 18:35:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44664]
+2020-04-26 18:35:31 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44664]
+2020-04-26 18:35:31 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44664]
+2020-04-26 18:35:38 INFO NSScheduledThread1 - --------------------------------------------------------
+2020-04-26 18:35:38 INFO NSScheduledThread1 - configTable SIZE: 0
+2020-04-26 18:35:50 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2020-04-26 18:36:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44668
+2020-04-26 18:36:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44668]
+2020-04-26 18:36:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44668]
+2020-04-26 18:36:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44668]
+2020-04-26 18:36:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44672
+2020-04-26 18:36:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44672]
+2020-04-26 18:36:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44672]
+2020-04-26 18:36:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44672]
+2020-04-26 18:36:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44674
+2020-04-26 18:36:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44674]
+2020-04-26 18:36:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44674]
+2020-04-26 18:36:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44674]
+2020-04-26 18:37:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44692
+2020-04-26 18:37:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44692]
+2020-04-26 18:37:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44692]
+2020-04-26 18:37:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44692]
+2020-04-26 18:37:16 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44708
+2020-04-26 18:37:16 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44708]
+2020-04-26 18:37:16 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44708]
+2020-04-26 18:37:16 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44708]
+2020-04-26 18:37:27 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44712
+2020-04-26 18:37:27 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44712]
+2020-04-26 18:37:27 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44712]
+2020-04-26 18:37:27 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44712]
+2020-04-26 18:37:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44716
+2020-04-26 18:37:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44716]
+2020-04-26 18:37:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44716]
+2020-04-26 18:37:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44716]
+2020-04-26 18:37:37 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44720
+2020-04-26 18:37:37 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44720]
+2020-04-26 18:37:37 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44720]
+2020-04-26 18:37:37 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44720]
+2020-04-26 18:37:43 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44722
+2020-04-26 18:37:43 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44722]
+2020-04-26 18:37:44 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44722]
+2020-04-26 18:37:44 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44722]
+2020-04-26 18:37:47 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44726
+2020-04-26 18:37:47 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44726]
+2020-04-26 18:37:47 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44726]
+2020-04-26 18:37:47 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44726]
+2020-04-26 18:37:49 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44730
+2020-04-26 18:37:49 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44730]
+2020-04-26 18:37:49 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44730]
+2020-04-26 18:37:49 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44730]
+2020-04-26 18:37:58 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44732
+2020-04-26 18:37:58 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44732]
+2020-04-26 18:37:58 WARN NettyServerCodecThread_6 - NETTY SERVER PIPELINE: exceptionCaught 172.28.0.3:44732
+2020-04-26 18:37:58 WARN NettyServerCodecThread_6 - NETTY SERVER PIPELINE: exceptionCaught exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:275) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+2020-04-26 18:37:58 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44732]
+2020-04-26 18:37:58 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44732]
+2020-04-26 18:37:58 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.28.0.3:44732] result: true
+2020-04-26 18:38:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44736
+2020-04-26 18:38:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44736]
+2020-04-26 18:38:00 WARN NettyServerCodecThread_7 - NETTY SERVER PIPELINE: exceptionCaught 172.28.0.3:44736
+2020-04-26 18:38:00 WARN NettyServerCodecThread_7 - NETTY SERVER PIPELINE: exceptionCaught exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:275) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+2020-04-26 18:38:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44736]
+2020-04-26 18:38:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44736]
+2020-04-26 18:38:00 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.28.0.3:44736] result: true
+2020-04-26 18:38:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44740
+2020-04-26 18:38:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44740]
+2020-04-26 18:38:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44740]
+2020-04-26 18:38:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44740]
+2020-04-26 18:39:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44744
+2020-04-26 18:39:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44744]
+2020-04-26 18:39:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44744]
+2020-04-26 18:39:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44744]
+2020-04-26 18:39:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44748
+2020-04-26 18:39:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44748]
+2020-04-26 18:39:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44748]
+2020-04-26 18:39:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44748]
+2020-04-26 18:39:41 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44752
+2020-04-26 18:39:41 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44752]
+2020-04-26 18:39:41 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44752]
+2020-04-26 18:39:41 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44752]
+2020-04-26 18:39:49 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44754
+2020-04-26 18:39:49 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44754]
+2020-04-26 18:39:49 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44754]
+2020-04-26 18:39:49 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44754]
+2020-04-26 18:39:50 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44760
+2020-04-26 18:39:50 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44760]
+2020-04-26 18:39:50 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44760]
+2020-04-26 18:39:50 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44760]
+2020-04-26 18:39:51 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44762
+2020-04-26 18:39:51 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44762]
+2020-04-26 18:39:51 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44762]
+2020-04-26 18:39:51 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44762]
+2020-04-26 18:39:56 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44764
+2020-04-26 18:39:56 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44764]
+2020-04-26 18:39:56 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44764]
+2020-04-26 18:39:56 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44764]
+2020-04-26 18:39:57 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44766
+2020-04-26 18:39:57 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44766]
+2020-04-26 18:39:57 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44766]
+2020-04-26 18:39:57 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44766]
+2020-04-26 18:40:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44770
+2020-04-26 18:40:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44770]
+2020-04-26 18:40:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44770]
+2020-04-26 18:40:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44770]
+2020-04-26 18:40:05 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44774
+2020-04-26 18:40:05 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44774]
+2020-04-26 18:40:05 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44774]
+2020-04-26 18:40:05 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44774]
+2020-04-26 18:40:05 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44778
+2020-04-26 18:40:05 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44778]
+2020-04-26 18:40:05 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44778]
+2020-04-26 18:40:05 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44778]
+2020-04-26 18:40:08 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44780
+2020-04-26 18:40:08 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44780]
+2020-04-26 18:40:08 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44780]
+2020-04-26 18:40:08 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44780]
+2020-04-26 18:40:08 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44784
+2020-04-26 18:40:08 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44784]
+2020-04-26 18:40:08 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44784]
+2020-04-26 18:40:08 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44784]
+2020-04-26 18:40:09 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44786
+2020-04-26 18:40:09 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44786]
+2020-04-26 18:40:09 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44786]
+2020-04-26 18:40:09 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44786]
+2020-04-26 18:40:14 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44788
+2020-04-26 18:40:14 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44788]
+2020-04-26 18:40:14 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44788]
+2020-04-26 18:40:14 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44788]
+2020-04-26 18:40:14 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44792
+2020-04-26 18:40:14 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44792]
+2020-04-26 18:40:14 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44792]
+2020-04-26 18:40:14 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44792]
+2020-04-26 18:40:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44794
+2020-04-26 18:40:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44794]
+2020-04-26 18:40:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44794]
+2020-04-26 18:40:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44794]
+2020-04-26 18:40:41 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44798
+2020-04-26 18:40:41 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44798]
+2020-04-26 18:40:41 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44798]
+2020-04-26 18:40:41 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44798]
+2020-04-26 18:40:41 INFO RemotingExecutorThread_1 - new topic registered, ex-pro QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=6, topicSynFlag=0]
+2020-04-26 18:40:50 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44802
+2020-04-26 18:40:50 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44802]
+2020-04-26 18:40:50 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44802]
+2020-04-26 18:40:50 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44802]
+2020-04-26 18:40:50 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44806
+2020-04-26 18:40:50 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44806]
+2020-04-26 18:40:50 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44806]
+2020-04-26 18:40:50 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44806]
+2020-04-26 18:40:52 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44808
+2020-04-26 18:40:52 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44808]
+2020-04-26 18:40:52 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44808]
+2020-04-26 18:40:52 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44808]
+2020-04-26 18:41:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44810
+2020-04-26 18:41:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44810]
+2020-04-26 18:41:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44810]
+2020-04-26 18:41:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44810]
+2020-04-26 18:41:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44814
+2020-04-26 18:41:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44814]
+2020-04-26 18:41:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44814]
+2020-04-26 18:41:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44814]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44816
+2020-04-26 18:41:02 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44816]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44816]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44816]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44818
+2020-04-26 18:41:02 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44818]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44818]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44818]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44822
+2020-04-26 18:41:02 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44822]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44822]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44822]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44826
+2020-04-26 18:41:02 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44826]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44826]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44826]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44830
+2020-04-26 18:41:02 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44830]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44830]
+2020-04-26 18:41:02 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44830]
+2020-04-26 18:41:13 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44832
+2020-04-26 18:41:13 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44832]
+2020-04-26 18:41:13 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44832]
+2020-04-26 18:41:13 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44832]
+2020-04-26 18:41:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44836
+2020-04-26 18:41:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44836]
+2020-04-26 18:41:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44836]
+2020-04-26 18:41:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44836]
+2020-04-26 18:42:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44840
+2020-04-26 18:42:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44840]
+2020-04-26 18:42:00 WARN NettyServerCodecThread_7 - NETTY SERVER PIPELINE: exceptionCaught 172.28.0.3:44840
+2020-04-26 18:42:00 WARN NettyServerCodecThread_7 - NETTY SERVER PIPELINE: exceptionCaught exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:275) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+2020-04-26 18:42:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44840]
+2020-04-26 18:42:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44840]
+2020-04-26 18:42:00 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.28.0.3:44840] result: true
+2020-04-26 18:55:52 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2020-04-26 18:55:52 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2020-04-26 18:55:52 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2020-04-26 18:55:52 INFO main - productEnvName=center
+2020-04-26 18:55:52 INFO main - clusterTest=false
+2020-04-26 18:55:52 INFO main - orderMessageEnable=false
+2020-04-26 18:55:52 INFO main - listenPort=9876
+2020-04-26 18:55:52 INFO main - serverWorkerThreads=8
+2020-04-26 18:55:52 INFO main - serverCallbackExecutorThreads=0
+2020-04-26 18:55:52 INFO main - serverSelectorThreads=3
+2020-04-26 18:55:52 INFO main - serverOnewaySemaphoreValue=256
+2020-04-26 18:55:52 INFO main - serverAsyncSemaphoreValue=64
+2020-04-26 18:55:52 INFO main - serverChannelMaxIdleTimeSeconds=120
+2020-04-26 18:55:52 INFO main - serverSocketSndBufSize=65535
+2020-04-26 18:55:52 INFO main - serverSocketRcvBufSize=65535
+2020-04-26 18:55:52 INFO main - serverPooledByteBufAllocatorEnable=true
+2020-04-26 18:55:52 INFO main - useEpollNativeSelector=false
+2020-04-26 18:55:54 INFO main - Server is running in TLS permissive mode
+2020-04-26 18:55:54 INFO main - Tls config file doesn't exist, skip it
+2020-04-26 18:55:54 INFO main - Log the final used tls related configuration
+2020-04-26 18:55:54 INFO main - tls.test.mode.enable = true
+2020-04-26 18:55:54 INFO main - tls.server.need.client.auth = none
+2020-04-26 18:55:54 INFO main - tls.server.keyPath = null
+2020-04-26 18:55:54 INFO main - tls.server.keyPassword = null
+2020-04-26 18:55:54 INFO main - tls.server.certPath = null
+2020-04-26 18:55:54 INFO main - tls.server.authClient = false
+2020-04-26 18:55:54 INFO main - tls.server.trustCertPath = null
+2020-04-26 18:55:54 INFO main - tls.client.keyPath = null
+2020-04-26 18:55:54 INFO main - tls.client.keyPassword = null
+2020-04-26 18:55:54 INFO main - tls.client.certPath = null
+2020-04-26 18:55:54 INFO main - tls.client.authServer = false
+2020-04-26 18:55:54 INFO main - tls.client.trustCertPath = null
+2020-04-26 18:55:56 INFO main - Using OpenSSL provider
+2020-04-26 18:55:56 INFO main - SSLContext created for server
+2020-04-26 18:55:56 INFO NettyEventExecutor - NettyEventExecutor service started
+2020-04-26 18:55:56 INFO main - The Name Server boot success. serializeType=JSON
+2020-04-26 18:55:56 INFO FileWatchService - FileWatchService service started
+2020-04-26 18:55:57 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.4:35800
+2020-04-26 18:55:57 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.4:35800]
+2020-04-26 18:55:58 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2020-04-26 18:55:58 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2020-04-26 18:55:58 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2020-04-26 18:55:58 INFO RemotingExecutorThread_1 - new topic registered, ex-pro QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=6, topicSynFlag=0]
+2020-04-26 18:55:58 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2020-04-26 18:55:58 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2020-04-26 18:55:58 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2020-04-26 18:55:58 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2020-04-26 18:55:58 INFO RemotingExecutorThread_1 - new broker registered, 172.28.0.4:10911 HAServer: 172.28.0.4:10912
+2020-04-26 18:56:28 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44848
+2020-04-26 18:56:28 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44848]
+2020-04-26 18:56:28 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44848]
+2020-04-26 18:56:28 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44848]
+2020-04-26 18:56:28 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44850
+2020-04-26 18:56:28 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44850]
+2020-04-26 18:56:28 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44850]
+2020-04-26 18:56:28 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44850]
+2020-04-26 18:56:28 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44852
+2020-04-26 18:56:28 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44852]
+2020-04-26 18:56:28 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44852]
+2020-04-26 18:56:28 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44852]
+2020-04-26 18:56:28 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44856
+2020-04-26 18:56:28 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44856]
+2020-04-26 18:56:29 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44856]
+2020-04-26 18:56:29 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44856]
+2020-04-26 18:56:29 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44860
+2020-04-26 18:56:29 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44860]
+2020-04-26 18:56:29 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44860]
+2020-04-26 18:56:29 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44860]
+2020-04-26 18:56:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44862
+2020-04-26 18:56:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44862]
+2020-04-26 18:56:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44862]
+2020-04-26 18:56:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44862]
+2020-04-26 18:56:40 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44866
+2020-04-26 18:56:40 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44866]
+2020-04-26 18:56:40 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44866]
+2020-04-26 18:56:40 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44866]
+2020-04-26 18:56:49 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44870
+2020-04-26 18:56:49 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44870]
+2020-04-26 18:56:49 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44870]
+2020-04-26 18:56:49 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44870]
+2020-04-26 18:56:49 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44874
+2020-04-26 18:56:49 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44874]
+2020-04-26 18:56:49 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44874]
+2020-04-26 18:56:49 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44874]
+2020-04-26 18:56:56 INFO NSScheduledThread1 - --------------------------------------------------------
+2020-04-26 18:56:56 INFO NSScheduledThread1 - configTable SIZE: 0
+2020-04-26 18:57:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44876
+2020-04-26 18:57:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44876]
+2020-04-26 18:57:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44876]
+2020-04-26 18:57:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44876]
+2020-04-26 18:57:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44882
+2020-04-26 18:57:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44882]
+2020-04-26 18:57:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44882]
+2020-04-26 18:57:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44882]
+2020-04-26 18:57:07 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44884
+2020-04-26 18:57:07 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44884]
+2020-04-26 18:57:07 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44884]
+2020-04-26 18:57:07 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44884]
+2020-04-26 18:57:07 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44886
+2020-04-26 18:57:07 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44886]
+2020-04-26 18:57:07 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44886]
+2020-04-26 18:57:07 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44886]
+2020-04-26 18:57:14 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44890
+2020-04-26 18:57:14 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44890]
+2020-04-26 18:57:14 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44890]
+2020-04-26 18:57:14 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44890]
+2020-04-26 18:57:28 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44892
+2020-04-26 18:57:28 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44892]
+2020-04-26 18:57:28 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44892]
+2020-04-26 18:57:28 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44892]
+2020-04-26 18:57:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44896
+2020-04-26 18:57:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44896]
+2020-04-26 18:57:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44896]
+2020-04-26 18:57:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44896]
+2020-04-26 18:57:31 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44900
+2020-04-26 18:57:31 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44900]
+2020-04-26 18:57:31 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44900]
+2020-04-26 18:57:31 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44900]
+2020-04-26 18:57:36 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44904
+2020-04-26 18:57:36 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44904]
+2020-04-26 18:57:36 WARN NettyServerCodecThread_3 - NETTY SERVER PIPELINE: exceptionCaught 172.28.0.3:44904
+2020-04-26 18:57:36 WARN NettyServerCodecThread_3 - NETTY SERVER PIPELINE: exceptionCaught exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:275) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+2020-04-26 18:57:36 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44904]
+2020-04-26 18:57:36 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44904]
+2020-04-26 18:57:36 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.28.0.3:44904] result: true
+2020-04-26 18:57:36 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44908
+2020-04-26 18:57:36 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44908]
+2020-04-26 18:57:36 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44908]
+2020-04-26 18:57:36 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44908]
+2020-04-26 18:58:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44910
+2020-04-26 18:58:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44910]
+2020-04-26 18:58:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44910]
+2020-04-26 18:58:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44910]
+2020-04-26 18:58:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44914
+2020-04-26 18:58:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44914]
+2020-04-26 18:58:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44914]
+2020-04-26 18:58:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44914]
+2020-04-26 18:59:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44918
+2020-04-26 18:59:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44918]
+2020-04-26 18:59:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44918]
+2020-04-26 18:59:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44918]
+2020-04-26 18:59:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44922
+2020-04-26 18:59:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44922]
+2020-04-26 18:59:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44922]
+2020-04-26 18:59:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44922]
+2020-04-26 18:59:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44924
+2020-04-26 18:59:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44924]
+2020-04-26 18:59:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44924]
+2020-04-26 18:59:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44924]
+2020-04-26 19:00:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44928
+2020-04-26 19:00:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44928]
+2020-04-26 19:00:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44928]
+2020-04-26 19:00:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44928]
+2020-04-26 19:00:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44932
+2020-04-26 19:00:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44932]
+2020-04-26 19:00:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44932]
+2020-04-26 19:00:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44932]
+2020-04-26 19:00:30 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44934
+2020-04-26 19:00:30 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44934]
+2020-04-26 19:00:30 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44934]
+2020-04-26 19:00:30 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44934]
+2020-04-26 19:01:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44938
+2020-04-26 19:01:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44938]
+2020-04-26 19:01:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44938]
+2020-04-26 19:01:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44938]
+2020-04-26 19:01:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44942
+2020-04-26 19:01:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44942]
+2020-04-26 19:01:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44942]
+2020-04-26 19:01:30 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44942]
+2020-04-26 19:02:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44946
+2020-04-26 19:02:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44946]
+2020-04-26 19:02:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44946]
+2020-04-26 19:02:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44946]
+2020-04-26 19:02:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44962
+2020-04-26 19:02:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44962]
+2020-04-26 19:02:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44962]
+2020-04-26 19:02:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44962]
+2020-04-26 19:03:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44966
+2020-04-26 19:03:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44966]
+2020-04-26 19:03:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44966]
+2020-04-26 19:03:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44966]
+2020-04-26 19:03:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44970
+2020-04-26 19:03:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44970]
+2020-04-26 19:03:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44970]
+2020-04-26 19:03:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44970]
+2020-04-26 19:03:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44972
+2020-04-26 19:03:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44972]
+2020-04-26 19:03:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44972]
+2020-04-26 19:03:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44972]
+2020-04-26 19:04:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44976
+2020-04-26 19:04:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44976]
+2020-04-26 19:04:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44976]
+2020-04-26 19:04:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44976]
+2020-04-26 19:04:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44980
+2020-04-26 19:04:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44980]
+2020-04-26 19:04:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44980]
+2020-04-26 19:04:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44980]
+2020-04-26 19:05:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44984
+2020-04-26 19:05:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44984]
+2020-04-26 19:05:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44984]
+2020-04-26 19:05:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44984]
+2020-04-26 19:05:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44988
+2020-04-26 19:05:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44988]
+2020-04-26 19:05:00 WARN NettyServerCodecThread_7 - NETTY SERVER PIPELINE: exceptionCaught 172.28.0.3:44988
+2020-04-26 19:05:00 WARN NettyServerCodecThread_7 - NETTY SERVER PIPELINE: exceptionCaught exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:275) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+2020-04-26 19:05:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44988]
+2020-04-26 19:05:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44988]
+2020-04-26 19:05:00 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.28.0.3:44988] result: true
+2020-04-26 19:05:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44990
+2020-04-26 19:05:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44990]
+2020-04-26 19:05:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44990]
+2020-04-26 19:05:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44990]
+2020-04-26 19:06:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44994
+2020-04-26 19:06:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44994]
+2020-04-26 19:06:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44994]
+2020-04-26 19:06:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44994]
+2020-04-26 19:06:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:44998
+2020-04-26 19:06:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:44998]
+2020-04-26 19:06:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:44998]
+2020-04-26 19:06:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:44998]
+2020-04-26 19:06:56 INFO NSScheduledThread1 - --------------------------------------------------------
+2020-04-26 19:06:56 INFO NSScheduledThread1 - configTable SIZE: 0
+2020-04-26 19:07:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45002
+2020-04-26 19:07:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45002]
+2020-04-26 19:07:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45002]
+2020-04-26 19:07:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45002]
+2020-04-26 19:07:04 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.1:53446
+2020-04-26 19:07:04 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.1:53446]
+2020-04-26 19:07:04 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.1:53448
+2020-04-26 19:07:04 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.1:53448]
+2020-04-26 19:07:21 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45026
+2020-04-26 19:07:21 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45026]
+2020-04-26 19:07:21 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45026]
+2020-04-26 19:07:21 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45026]
+2020-04-26 19:07:26 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45030
+2020-04-26 19:07:26 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45030]
+2020-04-26 19:07:26 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45030]
+2020-04-26 19:07:26 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45030]
+2020-04-26 19:07:26 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45034
+2020-04-26 19:07:26 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45034]
+2020-04-26 19:07:26 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45034]
+2020-04-26 19:07:26 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45034]
+2020-04-26 19:07:29 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45038
+2020-04-26 19:07:29 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45038]
+2020-04-26 19:07:29 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45038]
+2020-04-26 19:07:29 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45038]
+2020-04-26 19:07:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45042
+2020-04-26 19:07:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45042]
+2020-04-26 19:07:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45042]
+2020-04-26 19:07:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45042]
+2020-04-26 19:07:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45046
+2020-04-26 19:07:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45046]
+2020-04-26 19:07:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45046]
+2020-04-26 19:07:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45046]
+2020-04-26 19:07:36 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45050
+2020-04-26 19:07:36 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45050]
+2020-04-26 19:07:36 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45050]
+2020-04-26 19:07:36 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45050]
+2020-04-26 19:07:36 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45054
+2020-04-26 19:07:36 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45054]
+2020-04-26 19:07:36 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45054]
+2020-04-26 19:07:36 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45054]
+2020-04-26 19:08:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45056
+2020-04-26 19:08:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45056]
+2020-04-26 19:08:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45056]
+2020-04-26 19:08:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45056]
+2020-04-26 19:08:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45060
+2020-04-26 19:08:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45060]
+2020-04-26 19:08:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45060]
+2020-04-26 19:08:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45060]
+2020-04-26 19:08:51 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45066
+2020-04-26 19:08:51 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45066]
+2020-04-26 19:08:51 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45066]
+2020-04-26 19:08:51 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45066]
+2020-04-26 19:08:52 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45068
+2020-04-26 19:08:52 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45068]
+2020-04-26 19:08:52 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45068]
+2020-04-26 19:08:52 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45068]
+2020-04-26 19:08:53 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45072
+2020-04-26 19:08:53 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45072]
+2020-04-26 19:08:53 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45072]
+2020-04-26 19:08:53 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45072]
+2020-04-26 19:08:57 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45074
+2020-04-26 19:08:57 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45074]
+2020-04-26 19:08:57 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45074]
+2020-04-26 19:08:57 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45074]
+2020-04-26 19:09:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45078
+2020-04-26 19:09:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45078]
+2020-04-26 19:09:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45078]
+2020-04-26 19:09:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45078]
+2020-04-26 19:09:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45082
+2020-04-26 19:09:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45082]
+2020-04-26 19:09:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45082]
+2020-04-26 19:09:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45082]
+2020-04-26 19:09:04 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45084
+2020-04-26 19:09:04 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45084]
+2020-04-26 19:09:04 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45084]
+2020-04-26 19:09:04 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45084]
+2020-04-26 19:09:17 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45086
+2020-04-26 19:09:17 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45086]
+2020-04-26 19:09:17 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45086]
+2020-04-26 19:09:17 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45086]
+2020-04-26 19:09:19 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45090
+2020-04-26 19:09:19 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45090]
+2020-04-26 19:09:19 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45090]
+2020-04-26 19:09:19 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45090]
+2020-04-26 19:09:28 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45094
+2020-04-26 19:09:28 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45094]
+2020-04-26 19:09:28 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45094]
+2020-04-26 19:09:28 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45094]
+2020-04-26 19:09:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45098
+2020-04-26 19:09:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45098]
+2020-04-26 19:09:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45098]
+2020-04-26 19:09:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45098]
+2020-04-26 19:09:34 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45102
+2020-04-26 19:09:34 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45102]
+2020-04-26 19:09:34 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45102]
+2020-04-26 19:09:34 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45102]
+2020-04-26 19:09:38 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45106
+2020-04-26 19:09:38 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45106]
+2020-04-26 19:09:38 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45106]
+2020-04-26 19:09:38 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45106]
+2020-04-26 19:09:42 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45110
+2020-04-26 19:09:42 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45110]
+2020-04-26 19:09:42 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45110]
+2020-04-26 19:09:42 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45110]
+2020-04-26 19:09:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45114
+2020-04-26 19:09:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45114]
+2020-04-26 19:09:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45114]
+2020-04-26 19:09:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45114]
+2020-04-26 19:09:49 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45118
+2020-04-26 19:09:49 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45118]
+2020-04-26 19:09:49 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45118]
+2020-04-26 19:09:49 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45118]
+2020-04-26 19:09:53 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45122
+2020-04-26 19:09:53 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45122]
+2020-04-26 19:09:53 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45122]
+2020-04-26 19:09:53 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45122]
+2020-04-26 19:10:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45126
+2020-04-26 19:10:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45126]
+2020-04-26 19:10:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45126]
+2020-04-26 19:10:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45126]
+2020-04-26 19:10:20 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.1:53446]
+2020-04-26 19:10:20 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.1:53446]
+2020-04-26 19:10:20 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.1:53448]
+2020-04-26 19:10:20 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.1:53448]
+2020-04-26 19:10:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45130
+2020-04-26 19:10:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45130]
+2020-04-26 19:10:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45130]
+2020-04-26 19:10:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45130]
+2020-04-26 19:11:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45146
+2020-04-26 19:11:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45146]
+2020-04-26 19:11:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45146]
+2020-04-26 19:11:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45146]
+2020-04-26 19:11:30 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45150
+2020-04-26 19:11:30 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45150]
+2020-04-26 19:11:30 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45150]
+2020-04-26 19:11:30 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45150]
+2020-04-26 19:11:49 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.1:53594
+2020-04-26 19:11:49 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.1:53592
+2020-04-26 19:11:49 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.1:53594]
+2020-04-26 19:11:49 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.1:53592]
+2020-04-26 19:12:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45172
+2020-04-26 19:12:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45172]
+2020-04-26 19:12:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45172]
+2020-04-26 19:12:00 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45172]
+2020-04-26 19:12:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45176
+2020-04-26 19:12:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45176]
+2020-04-26 19:12:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45176]
+2020-04-26 19:12:30 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45176]
+2020-04-26 19:13:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45180
+2020-04-26 19:13:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45180]
+2020-04-26 19:13:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45180]
+2020-04-26 19:13:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45180]
+2020-04-26 19:13:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45184
+2020-04-26 19:13:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45184]
+2020-04-26 19:13:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45184]
+2020-04-26 19:13:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45184]
+2020-04-26 19:13:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45186
+2020-04-26 19:13:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45186]
+2020-04-26 19:13:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45186]
+2020-04-26 19:13:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45186]
+2020-04-26 19:14:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45190
+2020-04-26 19:14:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45190]
+2020-04-26 19:14:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45190]
+2020-04-26 19:14:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45190]
+2020-04-26 19:14:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45194
+2020-04-26 19:14:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45194]
+2020-04-26 19:14:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45194]
+2020-04-26 19:14:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45194]
+2020-04-26 19:15:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45198
+2020-04-26 19:15:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45198]
+2020-04-26 19:15:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45198]
+2020-04-26 19:15:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45198]
+2020-04-26 19:15:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45202
+2020-04-26 19:15:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45202]
+2020-04-26 19:15:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45202]
+2020-04-26 19:15:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45202]
+2020-04-26 19:16:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45206
+2020-04-26 19:16:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45206]
+2020-04-26 19:16:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45206]
+2020-04-26 19:16:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45206]
+2020-04-26 19:16:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45210
+2020-04-26 19:16:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45210]
+2020-04-26 19:16:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45210]
+2020-04-26 19:16:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45210]
+2020-04-26 19:16:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45212
+2020-04-26 19:16:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45212]
+2020-04-26 19:16:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45212]
+2020-04-26 19:16:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45212]
+2020-04-26 19:16:56 INFO NSScheduledThread1 - --------------------------------------------------------
+2020-04-26 19:16:56 INFO NSScheduledThread1 - configTable SIZE: 0
+2020-04-26 19:17:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45216
+2020-04-26 19:17:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45216]
+2020-04-26 19:17:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45216]
+2020-04-26 19:17:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45216]
+2020-04-26 19:17:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45220
+2020-04-26 19:17:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45220]
+2020-04-26 19:17:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45220]
+2020-04-26 19:17:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45220]
+2020-04-26 19:17:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45222
+2020-04-26 19:17:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45222]
+2020-04-26 19:17:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45222]
+2020-04-26 19:17:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45222]
+2020-04-26 19:17:59 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.1:53592]
+2020-04-26 19:17:59 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.1:53592]
+2020-04-26 19:17:59 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.1:53594]
+2020-04-26 19:17:59 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.1:53594]
+2020-04-26 19:18:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45226
+2020-04-26 19:18:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45226]
+2020-04-26 19:18:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45226]
+2020-04-26 19:18:00 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45226]
+2020-04-26 19:18:10 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.1:53668
+2020-04-26 19:18:10 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.1:53668]
+2020-04-26 19:18:10 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.1:53670
+2020-04-26 19:18:10 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.1:53670]
+2020-04-26 19:18:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45246
+2020-04-26 19:18:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45246]
+2020-04-26 19:18:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45246]
+2020-04-26 19:18:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45246]
+2020-04-26 19:19:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45250
+2020-04-26 19:19:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45250]
+2020-04-26 19:19:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45250]
+2020-04-26 19:19:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45250]
+2020-04-26 19:19:15 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.1:53670]
+2020-04-26 19:19:15 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.1:53670]
+2020-04-26 19:19:15 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.1:53668]
+2020-04-26 19:19:15 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.1:53668]
+2020-04-26 19:19:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45254
+2020-04-26 19:19:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45254]
+2020-04-26 19:19:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45254]
+2020-04-26 19:19:30 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45254]
+2020-04-26 19:20:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45258
+2020-04-26 19:20:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45258]
+2020-04-26 19:20:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45258]
+2020-04-26 19:20:00 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45258]
+2020-04-26 19:20:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.28.0.3:45262
+2020-04-26 19:20:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.28.0.3:45262]
+2020-04-26 19:20:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.28.0.3:45262]
+2020-04-26 19:20:00 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.28.0.3:45262]

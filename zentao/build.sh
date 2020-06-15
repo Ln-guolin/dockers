@@ -1,0 +1,1 @@
+docker build -t zentao:v11.5 .

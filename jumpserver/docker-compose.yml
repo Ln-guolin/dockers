@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  mysql:
+    image: jumpserver/jms_all:1.5.2
+    restart: unless-stopped
+    container_name: jms_all
+    ports:
+     - "2280:80"
+     - "2222:2222"
+    environment:
+      SECRET_KEY: iwpf3J2wnujrgV8jy31sEROS1OoQ6r71TZABDUDVk2qkqu4zPp
+      BOOTSTRAP_TOKEN: Mjcx6lRKRAFqxfaE
+    volumes:
+      - './data/jumpserver:/opt/jumpserver/data/media'
+      - './data/mysql:/var/lib/mysql'

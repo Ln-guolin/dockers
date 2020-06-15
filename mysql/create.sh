@@ -1,0 +1,1 @@
+docker run -d -p 3306:3306 --restart=always --name some-mysql -v /Users/apple/dockerdata/mysql/conf:/etc/mysql/conf.d -v /Users/apple/dockerdata/mysql/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password123 mysql:5.6.35

@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  apollo-db:
+    image: mysql:5.7
+    container_name: apollo-db
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      TZ: Asia/Shanghai
+      #MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_ROOT_PASSWORD: apollo123Pwd
+    ports:
+      - "3306:3306"
+    volumes:
+      - apollomysqldata:/var/lib/mysql
+      - ./sql:/docker-entrypoint-initdb.d
+volumes:
+  apollomysqldata:

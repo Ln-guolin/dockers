@@ -1,0 +1,13 @@
+# 暂时未通过启动
+version: '2.2'
+services:
+  kibana:
+    image: kibana:6.7.0
+    container_name: kibana
+    environment:
+      #SERVER_NAME: kibana.example.org
+      ELASTICSEARCH_HOSTS: http://localhost:9200
+    #volumes:
+    #  - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+    ports:
+      - 5601:5601

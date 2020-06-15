@@ -1,0 +1,1 @@
+docker build -t node:12.x-centos7-ssh .

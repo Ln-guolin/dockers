@@ -1,0 +1,86 @@
+version: "3"
+services:
+  centos-001-java-offline-order:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-001-java-offline-order
+      ports:
+        - '22001:22'
+        - '6080:6080'
+  centos-002-java-cart:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-002-java-cart
+      ports:
+        - '22002:22'
+        - '9091:9091'
+  centos-003-java-message:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-003-java-message
+      ports:
+        - '22003:22'
+        - '8169:8169'
+  centos-004-java-order:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-004-java-order
+      ports:
+        - '22004:22'
+        - '8090:8090'
+  centos-005-java-pay:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-005-java-pay
+      ports:
+        - '22005:22'
+        - '8100:8100'
+  centos-006-java-product:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-006-java-product
+      ports:
+        - '22006:22'
+        - '8120:8120'
+  centos-007-java-shop:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-007-java-shop
+      ports:
+        - '22007:22'
+        - '8150:8150'
+  centos-008-java-user:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-008-java-user
+      ports:
+        - '22008:22'
+        - '8110:8110'
+  centos-009-port88001:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-009-port18001
+      ports:
+        - '22009:22'
+        - '18001:18001'
+  centos-010-port88002:
+      image: guolin123/openjdk:v1.8.0
+      restart: unless-stopped
+      container_name: centos-010-port18002
+      ports:
+        - '22010:22'
+        - '18002:18002'
+  centos-011-lua:
+      image: guolin123/openresty:1.15.8.1-2-centos
+      restart: unless-stopped
+      container_name: centos-011-lua
+      ports:
+        - '22011:22'
+        - '8011:80'
+  centos-012-lua:
+      image: guolin123/openresty:1.15.8.1-2-centos
+      restart: unless-stopped
+      container_name: centos-012-lua
+      ports:
+        - '22012:22'
+        - '8012:80'

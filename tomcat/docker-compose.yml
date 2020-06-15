@@ -1,0 +1,8 @@
+version: '3'
+services:
+    tomcat8:
+      image: tomcat:8.5.42-jdk8-openjdk
+      restart: unless-stopped
+      container_name: tomcat8.5
+      ports:
+        - 8888:8080

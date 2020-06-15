@@ -1,0 +1,13 @@
+version: "3"
+services:
+  centos-openresty:
+      image: guolin123/openresty:1.15.8.1-2-centos
+      restart: unless-stopped
+      container_name: centos-openresty
+      privileged: true
+      ports:
+        - '22001:22'
+        - '8080:80'
+      volumes:
+        - './logs:/usr/local/openresty/nginx/logs'
+        - './config/nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf:ro'

@@ -1,0 +1,10 @@
+# es web，暂时好像有连接问题
+version: "3"
+services:
+
+  cerebro:
+     image: yannart/cerebro:latest
+     container_name: cerebro
+     ports:
+       - "9001:9000"
+     restart: unless-stopped

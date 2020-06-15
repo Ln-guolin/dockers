@@ -1,0 +1,1 @@
+docker build -t openjdk:v1.8.0 .

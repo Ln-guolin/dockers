@@ -1,0 +1,11 @@
+# 禅道 项目管理系统
+version: "3"
+services:
+ 
+   zentao:
+     image: guolin123/zentao:v11.5
+     volumes:
+       - './data:/opt/zbox/'
+     ports:
+       - "1080:80"
+     restart: unless-stopped

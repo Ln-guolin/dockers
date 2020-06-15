@@ -1,0 +1,8 @@
+2020-04-26 18:34:36 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5891e32e
+2020-04-26 18:34:36 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4e718207
+2020-04-26 18:34:36 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1d371b2d
+2020-04-26 18:34:36 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@543c6f6d
+2020-04-26 18:55:54 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5891e32e
+2020-04-26 18:55:54 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4e718207
+2020-04-26 18:55:54 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1d371b2d
+2020-04-26 18:55:54 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@543c6f6d

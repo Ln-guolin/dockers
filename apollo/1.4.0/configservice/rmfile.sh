@@ -1,0 +1,1 @@
+rm -rf apollo-configservice-1.4.0-github.zip

@@ -1,0 +1,12 @@
+version: '3'
+services:
+    gitbucket:
+      image: guolin123/gitbucket:v4.31.2
+      restart: unless-stopped
+      container_name: some-gitbucket
+      volumes:
+       - './data:/gitbucket'
+      #environment:
+      # MAX_FILE_SIZE: 10485760
+      ports:
+       - 8122:8080

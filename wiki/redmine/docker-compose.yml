@@ -1,0 +1,28 @@
+# 默认账户/密码：admin/admin
+version: '3.1'
+
+services:
+
+  redmine:
+    image: redmine:4.0.3
+    restart: unless-stopped
+    container_name: redmine-web
+    ports:
+      - 8113:3000
+    environment:
+      REDMINE_DB_MYSQL: db
+      REDMINE_DB_PASSWORD: password123
+
+  db:
+    image: mysql:5.7
+    restart: unless-stopped
+    container_name: redmine-mysql
+    volumes:
+      - redminedata:/var/lib/mysql
+    ports:
+      - "11306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: password123
+      MYSQL_DATABASE: redmine
+volumes:
+  redminedata:

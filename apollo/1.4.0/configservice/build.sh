@@ -1,0 +1,1 @@
+docker build -t apollo-configservice:v1.4.0 .

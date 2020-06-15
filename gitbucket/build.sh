@@ -1,0 +1,1 @@
+docker build -t gitbucket:v4.31.2 .

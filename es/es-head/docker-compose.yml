@@ -1,0 +1,9 @@
+# es
+version: '3.1'
+services:
+  elasticsearch-head:
+    image: mobz/elasticsearch-head:5
+    container_name: elasticsearch-head
+    restart: unless-stopped
+    ports:
+      - 9100:9100

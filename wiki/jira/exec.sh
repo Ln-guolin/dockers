@@ -1,0 +1,1 @@
+docker exec -it jira-mysql /bin/bash

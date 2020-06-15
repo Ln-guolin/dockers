@@ -1,0 +1,1 @@
+docker build -t apollo-adminservice:v1.4.0 .
