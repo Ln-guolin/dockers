@@ -16,7 +16,7 @@
 
 version: '3.8'
 services:
-  oap:
+  skywalking-oap:
     image: apache/skywalking-oap-server:latest
     container_name: oap
     restart: always
@@ -31,7 +31,7 @@ services:
       start_period: 40s
     environment:
       JAVA_OPTS: "-Xms512m -Xmx512m"
-  ui:
+  skywalking-ui:
     image: apache/skywalking-ui:latest
     container_name: ui
     depends_on:
