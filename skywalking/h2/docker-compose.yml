@@ -18,7 +18,7 @@ version: '3.8'
 services:
   skywalking-oap:
     image: apache/skywalking-oap-server:latest
-    container_name: oap
+    container_name: skywalking-oap
     restart: always
     ports:
       - 11800:11800
@@ -33,11 +33,11 @@ services:
       JAVA_OPTS: "-Xms512m -Xmx512m"
   skywalking-ui:
     image: apache/skywalking-ui:latest
-    container_name: ui
+    container_name: skywalking-ui
     depends_on:
-      - oap
+      - skywalking-oap
     links:
-      - oap
+      - skywalking-oap
     restart: always
     ports:
       - 1280:8080
