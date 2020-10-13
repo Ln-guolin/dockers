@@ -42,4 +42,4 @@ services:
     ports:
       - 3380:8080
     environment:
-      SW_OAP_ADDRESS: oap:12800
+      SW_OAP_ADDRESS: skywalking-oap:12800
