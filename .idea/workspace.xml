@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2cfb1b6-cbe9-49db-bf27-8576ec0ae370" name="Default" comment="新增skywalking">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skywalking/h2/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/skywalking/h2/docker-compose.yml" afterDir="false" />
     </list>
@@ -277,14 +276,7 @@
       <workItem from="1594306853353" duration="104000" />
       <workItem from="1599460200454" duration="8278000" />
       <workItem from="1602467490063" duration="3457000" />
-      <workItem from="1602480977213" duration="815000" />
-    </task>
-    <task id="LOCAL-00004" summary="添加代码质量管理平台，和修改是否重启参数">
-      <created>1553765564802</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1553765564802</updated>
+      <workItem from="1602480977213" duration="1469000" />
     </task>
     <task id="LOCAL-00005" summary="vpn docker add">
       <created>1554193645587</created>
@@ -622,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602471254984</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="新增skywalking">
+      <created>1602553213689</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1602553213690</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,9 +673,9 @@
   <component name="WindowStateProjectService">
     <state width="335" height="219" key="Git.Branch.Popup" timestamp="1602471125279" />
     <state width="335" height="219" key="Git.Branch.Popup/0.0.1280.800" timestamp="1602471125279" />
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1602471256263">
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1602553214827">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.823@0.23.1440.823" timestamp="1602471256263" />
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.823@0.23.1440.823" timestamp="1602553214827" />
   </component>
 </project>
