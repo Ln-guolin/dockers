@@ -1,8 +1,9 @@
 # redis 缓存数据库
 version: "3"
 services:
-   redis:
-     image: redis:6.0.9
+ 
+   redis-1:
+     image: redis:5.0.8
      container_name: some-redis
      volumes:
        - data:/my/own/redis/data
@@ -10,5 +11,10 @@ services:
        - "6379:6379"
      restart: unless-stopped
      command:  redis-server --appendonly yes --requirepass "password123"
+
+networks:
+  host:
+    driver: bridge
+
 volumes:
   data:
