@@ -1,0 +1,15 @@
+# 默认账号/密码：admin/Yearning_admin
+version: '3.1'
+services:
+  yearning:
+    image: guolin123/yearning:2.3.6
+    restart: unless-stopped
+    container_name: yearning
+    environment:
+      MYSQL_ADDR: k.32e.co:3306
+      MYSQL_USER: root
+      MYSQL_PASSWORD: xxxxx
+      MYSQL_DB: yearning
+      TZ: Asia/Shanghai
+    ports:
+     - "8688:8000"
