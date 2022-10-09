@@ -8,7 +8,7 @@ services:
     environment:
       MYSQL_ADDR: k.32e.co:3306
       MYSQL_USER: root
-      MYSQL_PASSWORD: xxxxx
+      MYSQL_PASSWORD: aXv3g275
       MYSQL_DB: yearning
       TZ: Asia/Shanghai
     ports:
